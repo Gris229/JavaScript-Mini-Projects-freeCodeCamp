@@ -1,0 +1,14 @@
+console.log("Hello! I'm your coding fun fact guide!");
+let botName = "Trivia Bot";
+let botLocation = "Mars";
+let favoriteLanguage = "JavaScript";
+console.log("My name is " + botName + " and I live on " + botLocation + ".");
+console.log("My favorite programming language is " + favoriteLanguage + ".");
+let codingFact;
+codingFact = favoriteLanguage + " was originally called 'Mocha' when it was first developed by Brendan Eich at Netscape in 1995. It was later renamed to " + favoriteLanguage + ", reportedly to leverage the popularity of Sun's Java platform, despite the two languages being quite different.";
+console.log(codingFact);
+codingFact = favoriteLanguage + " is often used for both front-end and back-end development, thanks to technologies like Node.js. This allows developers to use " + favoriteLanguage + " for client-side scripting (in the browser) and server-side programming (on the server), making it a versatile and widely-used language.";
+console.log(codingFact);
+codingFact = favoriteLanguage + " is not just for web development! It's also used in mobile app development (with frameworks like React Native), desktop applications (with Electron), and even in IoT devices, thanks to its versatility and the vast ecosystem of libraries and frameworks available.";
+console.log(codingFact);
+console.log("It was fun sharing these facts with you. Goodbye! - " + botName + " from " + botLocation + ".");
